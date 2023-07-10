@@ -970,7 +970,7 @@ img {
 }
 
 .p-top__picture {
-	background: url(./assets/img/mainvisual.jpg) center center;
+	background: url(../../assets/img/mainvisual.jpg) center center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100vh;
@@ -1249,7 +1249,7 @@ img {
 }
 
 .p-top__picture {
-	background: url(./assets/img/mainvisual.jpg) center center/cover;
+	background: url(../../assets/img/mainvisual.jpg) center center/cover;
 	height: 100vh;
 }
 

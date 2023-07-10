@@ -4,13 +4,13 @@
 
     @include global.mq('sp') {
         height: 100vh;
-        background: url(./assets/img/mainvisual.jpg) center center / cover;
+        background: url(../../assets/img/mainvisual.jpg) center center / cover;
     }
 
 
     @include global.mq('pc') {
         height: 100vh;
-        background: url(./assets/img/mainvisual.jpg) center center;
+        background: url(../../assets/img/mainvisual.jpg) center center;
         background-size: cover;
         background-repeat: no-repeat;
     }
