@@ -1,0 +1,22 @@
+@use  "../global" as global;
+
+.c-top__message-ttl {
+    font-size: 80px;
+    font-weight: 600;
+    font-family: global.$f-en;
+
+    @include global.mq('sp') {
+        font-size: 30px;
+    }
+    
+}
+.c-top__message-txt {
+    font-size: 24px;
+    margin-top: 28px;
+    font-family: global.$f-ja;
+    line-height: 2 ;
+
+    @include global.mq('sp') {
+        font-size: 16px;
+    }
+}

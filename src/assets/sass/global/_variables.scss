@@ -1,0 +1,24 @@
+
+//font-fomily 
+$f-en: 'Josefin Sans', sans-serif;
+$f-ja: “游明朝”, “Yu Mincho”, “游明朝体”, “YuMincho”, “ヒラギノ明朝 Pro W3”, “Hiragino Mincho Pro”, “HiraMinProN-W3”, “HGS明朝E”, “ＭＳ Ｐ明朝”, “MS PMincho”, serif;
+//colorの設定
+$c-txt: #222;
+$c-white: #fff;
+$c-footer: #c09f80;
+$c-background: #F2F8FC;
+$c-body: #d7cec7;
+
+
+
+//＊ブレークポイントの設定///////////////////////////////////////////////
+//ブレークポイント
+$breakpoints: (
+    'sp': '(max-width: 767px)',
+    'pc': '(min-width: 768px)',
+    'tab': '(max-width: 1110px)',
+    'tab-down': '(max-width: 1109px)',
+
+);
+
+

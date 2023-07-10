@@ -1,0 +1,29 @@
+@use  "../global" as global;
+
+
+    //////////////////////////////////////////////////////////
+    /* 基本設定
+    ===================================== */
+
+    *,
+    *::before,
+    *::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+
+    html {
+        font-family: global.$f-ja;
+
+    }
+
+    body {
+    background: #d7cec7;
+    color: #222;
+    font-weight: 600;
+    }
+
+    a {
+    cursor: pointer;
+    text-decoration: none;
+    }

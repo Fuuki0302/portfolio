@@ -1,0 +1,58 @@
+@use  "../global" as global;
+
+.c-footer__text {
+    font-size: 16px;
+    font-family: global.$f-ja;
+    color: global.$c-white;
+    text-align: center;
+    padding: 40px 0px;
+    letter-spacing: 0.1em;
+
+    @include global.mq('sp') {
+        padding: 20px 0;
+        font-size: 14px;
+    }
+
+}
+
+
+.c-top__link {
+
+    background: rgba(255, 255, 255, 0.8);
+    border: solid 1px #3e3e3e;
+    border-radius:50%;
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 50px;
+    bottom: 30px;
+    -webkit-transition: .5s;
+    transition: .5s;
+    z-index: 100;
+    @include global.mq('sp') {
+        right: 16px;
+        bottom: 16px;
+    }
+
+&::after {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-right: solid 3px #3e3e3e;
+    border-top: solid 3px #3e3e3e;
+    left: 15px;
+    top: 20px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+
+}
+
+&:hover {
+    cursor: pointer;
+    
+}
+
+}

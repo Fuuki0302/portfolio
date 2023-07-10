@@ -1,0 +1,56 @@
+
+@use  "../global" as global;
+
+.p-about__header--content {
+    text-align: center;
+}
+
+
+.p-about__body--content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+    @include global.mq('sp') {
+        display: block;
+        margin-top: 8px;
+        text-align: center;
+    }
+
+}
+
+.p-about-img{
+
+    @include global.mq('pc') {
+        margin-right: 50px;
+    }
+    
+    @include global.mq('sp') {
+        margin-top: 30px;
+    }
+    img {
+        object-fit: cover;
+        max-width: 250px;
+    }
+
+}
+
+.p-about__title--content{
+    z-index: -1;
+    @include global.mq('pc') {
+        max-width: 560px;
+        padding: 30px 20px;
+    }
+
+    @include global.mq('sp') {
+        width: 100%;
+        position: static;
+        padding: 20px;
+        margin-top: 30px;   
+        margin: 0    auto;
+        text-align: left;
+    }
+
+
+}

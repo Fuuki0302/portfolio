@@ -1,0 +1,24 @@
+@use  "../global" as global;
+
+.p-section__title {
+    text-align: center;
+    position: relative;
+    font-family: global.$f-en;
+    @include global.mq('pc') {
+        font-size: 40px;
+    }
+    @include global.mq('sp') {
+        font-size: 32px;
+    }
+
+    &::after {
+        content: "";
+        display: block;
+        width: 60px;
+        height: 1px;
+        background: #76323f;
+        margin: 16px auto 0;
+    }
+
+
+}

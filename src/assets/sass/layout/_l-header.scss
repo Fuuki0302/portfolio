@@ -1,0 +1,20 @@
+@use  "../global" as global;
+
+
+
+.l-header {
+padding: 0px 50px;
+background: rgba(255, 255, 255, 0.8);
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+z-index: 99;
+height: 80px;
+
+@include global.mq('sp') {
+    padding: 0 20px; 
+
+}
+
+}

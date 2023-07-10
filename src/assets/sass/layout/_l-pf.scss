@@ -1,0 +1,12 @@
+@use  "../global" as global;
+
+.l-pf__inner{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 50px;
+
+    @include global.mq('sp') {
+        padding: 30px 20px;
+    }
+
+}
